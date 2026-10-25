@@ -1,0 +1,14 @@
+id: io.github.o-min222.letsur_skin
+name: LETSUR Red Panda
+version: 0.1.0
+manifest_version: 2
+entry: dap_letsur.plugin:activate
+description: 크림색 후디를 입은 LETSUR 렛서판다와 함께해요. 이동·인사·작업·수면 모션을 제공하는 스킨입니다.
+author: LETSUR
+min_app_version: "1.6.14"
+surface: user
+permissions:
+  - window.palette
+  - pet.skin
+execution_modes:
+  - user

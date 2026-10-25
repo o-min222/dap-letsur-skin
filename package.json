@@ -1,0 +1,15 @@
+{
+  "name": "dap-letsur-skin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LETSUR red panda skin plugin for Desk AI Pet",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "package": "python3 scripts/package.py",
+    "verify": "npm test && npm run package"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

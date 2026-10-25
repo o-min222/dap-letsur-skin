@@ -1,0 +1,197 @@
+{
+  "id": "letsur",
+  "displayName": "LETSUR 렛서판다",
+  "schemaVersion": 1,
+  "spritesheetPath": "assets/letsur-dap.png",
+  "cell": {
+    "width": 192,
+    "height": 208
+  },
+  "grid": {
+    "columns": 8,
+    "rows": 14
+  },
+  "animations": {
+    "idle": {
+      "row": 0,
+      "holdsMs": [
+        620,
+        180,
+        130,
+        120,
+        180,
+        620
+      ]
+    },
+    "running-right": {
+      "row": 1,
+      "holdsMs": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ]
+    },
+    "running-left": {
+      "row": 2,
+      "holdsMs": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ]
+    },
+    "waving": {
+      "row": 3,
+      "holdsMs": [
+        200,
+        230,
+        230,
+        300
+      ]
+    },
+    "jumping": {
+      "row": 4,
+      "holdsMs": [
+        220,
+        120,
+        180,
+        180,
+        250
+      ]
+    },
+    "failed": {
+      "row": 5,
+      "holdsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        360
+      ]
+    },
+    "waiting": {
+      "row": 6,
+      "holdsMs": [
+        360,
+        220,
+        220,
+        150,
+        220,
+        360
+      ]
+    },
+    "running": {
+      "row": 7,
+      "holdsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "review": {
+      "row": 8,
+      "holdsMs": [
+        300,
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    "sleep": {
+      "row": 11,
+      "holdsMs": [
+        700,
+        700,
+        700,
+        700,
+        700,
+        700
+      ]
+    },
+    "feed_munch": {
+      "row": 12,
+      "holdsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "grabbed": {
+      "row": 13,
+      "holdsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ]
+    },
+    "groom": {
+      "row": 8,
+      "holdsMs": [
+        300,
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    "success": {
+      "row": 3,
+      "holdsMs": [
+        200,
+        230,
+        230,
+        300
+      ]
+    },
+    "dance": {
+      "row": 3,
+      "holdsMs": [
+        200,
+        230,
+        230,
+        300
+      ]
+    },
+    "working_v2": {
+      "row": 7,
+      "holdsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    }
+  },
+  "look": {
+    "startRow": 9,
+    "directions": 16,
+    "startAngleDegrees": 0,
+    "clockwise": true
+  }
+}
